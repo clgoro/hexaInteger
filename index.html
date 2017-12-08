@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<script type="text/javascript" src="alpc.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container-fluid">
+	<h1 class="text-center text-info"> Converter</h1>
+	<div class="row">
+		<div class="col-sm-6">
+			<h1 class="text-center text-info">Integer to Hexadecimal</h1>
+			<h5 class="text-center text-info">(range from 0 to +16383)</h5>
+	<form action="alpc.js" id="form">
+		
+	<table class="table table-hover" id="tb1" >
+		<tr>
+			<td>
+				Integer
+			</td>
+			<td>
+				<input type="TextBox" id="numb1">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Result
+			</td>
+			<td>
+				<input type="TextBox" id="result">
+			</td>
+			<td>
+				
+			</td>
+			<td>
+				<input type="button" class="btn-primary" value="Result" onclick="encod()">
+			</td>
+		</tr>
+	</table>
+
+	</form>
+			
+	</div>
+		<div class="col-sm-6">
+			<h1 class="text-center text-info">Hexadecimal to Integer</h1>
+			<h5 class="text-center text-info">(range from -8192 to +8191)</h5>
+
+	<form action="alpc.js" id="form">
+		
+	<table class="table table-hover table" id="tb2"">
+		<tr>
+			<td>
+				Hi
+			</td>
+			<td>
+				<input type="TextBox" id="hi">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Low
+			</td>
+			<td>
+				<input type="TextBox" id="low">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Result
+			</td>
+			<td>
+				<input type="TextBox" id="deresult">
+			</td>
+			<td>
+				
+			</td>
+			<td>
+				<input type="button" class="btn-primary" value="Result" onclick="decode()">
+			</td>
+		</tr>
+	</table>
+
+	</form>
+			
+		</div>
+	</div>
+	
+
+</div>
+
+	
+</body>
+</html>
